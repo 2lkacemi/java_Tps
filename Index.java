@@ -12,6 +12,7 @@ public class Index {
         this.indexer = indexer;
     }
 
+    //ajouter depuis la conole
     public void ajouterConsole(){
         Scanner scanner = new Scanner(System.in);
         System.out.print("merci d'introduire le mot a ajouté : ");
@@ -23,6 +24,7 @@ public class Index {
         indexer.put(entree, numPage);
     }
 
+    //ajout normal
     public void ajouter(String entree, Integer numPage){
         indexer.put(entree, numPage);
     }
